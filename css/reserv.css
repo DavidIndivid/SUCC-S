@@ -266,6 +266,10 @@ input::-webkit-input-placeholder {
   .main__reserv {
     position: static;
   }
+
+    .reserv__form {
+    justify-content: center;
+  }
 }
 .footer {
   padding: 550px 0 0 0;
