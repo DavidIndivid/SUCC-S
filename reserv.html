@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/reserv.css"/>
+  <link rel="stylesheet icon" href="./img/icon.png">
+  <title>SUCCÈS</title>
+</head>
+
+<body>
+  <div class="body__wrapper">
+    <header class="header">
+  <div class="conteiner">
+    <div class="header__wrapper">
+      <a href="./index.html" class="header__logo"><img src="./img/logo.png" alt="logotip"></a>
+      <div class="header__menu" id="menu">
+        <nav class="header__list">
+          <ul>
+          <li><a href="./team.html" class="header__link spacing">Команда</a></li>
+          <li><a href="./menu.html" class="header__link spacing">Меню</a></li>
+          <li><a href="./contacts.html" class="header__link spacing">Контакты</a></li>
+          </ul>
+        </nav>
+        <button class="header__button" id="reserv">БРОНИРОВАНИЕ</button>
+        <div class="adres">
+          <br>
+          Краснодар, Митрофана Седина, 84
+        </div>
+        <div class="number">+7 (901)-489-51-44</div>
+        <div class="contact">
+          <a href="https://web.telegram.org/k/#@topvmanager"><img src="./img/Telegram.png" alt="Telegram"></a>
+          <a href="https://wa.me/+79086742600"><img src="./img/WhatsApp.png" alt="WhatsApp"></a>
+        </div>
+      </div>
+      <button class="header__button-menu " id="burger">
+        <div class="menu__item-form"></div>
+        <div class="menu__item-form"></div>
+        <div class="menu__item-form"></div>
+      </button>
+    </div>
+  </div>
+</header>
+    <main class="main__reserv">
+  <div class="conteiner">
+    <div class="reserv__inner">
+      <form id="myForm" class="reserv__form spacing">
+        <h1 class="title">Бронирование</h1>
+        <input type="text" placeholder="Ваше имя" class="reserv__input" autofocus>
+
+        <!-- C required -->
+        <!-- <input type="text" placeholder="Ваше имя" class="reserv__input" oninvalid="setCustomValidity('Введите имя')"
+          oninput="setCustomValidity('')" autofocus required> -->
+
+        <input type="tel" id="phoneInput"   maxlength="10" placeholder="Телефон" class="reserv__input font-none"
+          oninvalid="setCustomValidity('Введите номер телефона')" required>
+
+        <input type="date" id="start" name="trip-start" min="2024-19-04" max="2024-12-31" placeholder="Дата бронирвания"
+          class="reserv__input font-none">
+
+        <!-- <input type="date" id="start" name="trip-start" min="2024-19-04" max="2024-12-31" placeholder="Дата бронирвания"
+          class="reserv__input font-none" required oninvalid="setCustomValidity('Введите дату')"
+          oninput="setCustomValidity('')"> -->
+
+        <input type="submit" id="open" class="header__button reserv__but active" value="ЗАБРОНИРОВАТЬ">
+      </form>
+      <div id="map" style="position:relative;overflow:hidden;"><a
+          href="https://yandex.ru/maps/35/krasnodar/?utm_medium=mapframe&utm_source=maps"
+          style="color:#eee;font-size:12px;position:absolute;top:0px;">Краснодар</a><a
+          href="https://yandex.ru/maps/35/krasnodar/?ll=38.978800%2C45.028926&mode=whatshere&utm_medium=mapframe&utm_source=maps&whatshere%5Bpoint%5D=38.978475%2C45.028996&whatshere%5Bzoom%5D=15.4&z=15.4"
+          style="color:#eee;font-size:12px;position:absolute;top:14px;">Улица Митрофана Седина, 93 —
+          Яндекс Карты</a><iframe
+          src="https://yandex.ru/map-widget/v1/?ll=38.978800%2C45.028926&mode=whatshere&whatshere%5Bpoint%5D=38.978475%2C45.028996&whatshere%5Bzoom%5D=15.4&z=15.4"
+          class="cart" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+    </div>
+  </div>
+</main>
+    <footer class="footer">
+	<div class="towers ">
+	  <img src="./img/tower__gold.png" alt="" class="anim towers1">
+	  <img src="./img/footer__leaf.png" alt="" class="anim leaf">
+	  <img src="./img/tower__black.png" alt="" class="anim towers2">
+	</div>
+  <section class="footer__wrapper">
+    <div class="conteiner">
+			<div class="footer__inner">
+        <div class="footer__item-link">
+          <a href="./index.html"><img src="./img/footer__logo.png" alt="logotip" class="footer__logo"></a>
+					<div class="footer__contact">
+						<a href="https://web.telegram.org/k/#@topvmanager"><img src="./img/Telegram.png" alt="Telegram"></a>
+						<a href="https://wa.me/+79086742600"><img src="./img/WhatsApp.png" alt="WhatsApp"></a>
+					</div>
+				</div>
+				<div class="footer__item spacing">
+          <b>ИНФОРМАЦИЯ</b>
+					<br><br>
+					<nav class="footer__list">
+            <ul>
+              <li><a href="./team.html" class="header__link ">Команда</a></li>
+              <li><a href="./menu.html" class="header__link ">Меню</a></li>
+              <li><a href="./contacts.html" class="header__link ">Контакты</a></li>
+						</ul>
+          </nav>
+          <br>
+					<a href="./index.html"><b>ГЛАВНАЯ</b></a>
+				</div>
+				<div class="footer__item spacing">
+          <a href="./contacts.html"><b>КОНТАКТЫ</b></a>
+					<br><br>
+					<div class="footer__adres">Краснодар, Митрофана Седина, 84</div>
+					<br>
+					<div class="footer__number">+7 (901)-489-51-44</div>
+				</div>
+				<div class="footer__item">
+          <b>ЧАСЫ РАБОТЫ</b>
+					<br><br>
+					<span class="footer__adres"><b>ПН-ПТ</b> 9:00-20:00</span>
+				</div>
+			</div>
+			<br>
+			<div class="rights">© SUCCÈS 2024. Все права защищены</div>
+		</div>
+	</section>
+</footer>
+  </div>
+  <div class="message">
+    <div class="message__text">
+      Спасибо за вашу заявку на бронирование столика. В течение 10 минут с вами свяжутся для уточнения деталей.
+      Благодарим за выбор нашего ресторана!
+    </div>
+    <button class="header__button" id="clossing">ОК</button>
+  </div>
+</body>
+<script src="./js/reserv.bundle.js"></script>
+<script src="./js/index.bundle.js"></script>
+
+
+</html>
